@@ -1,0 +1,30 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>DigiStore</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Eligiendo tematica</h1>
+    </header>
+    <main>
+        <section id="panel-filtros">
+            <h2>Vamos a buscar datos interesantes</h2>
+            <p>El valor minimo es de 0</p>
+            <input id="input-valor-minimo" type="number" min="0" max="10000" step="1" value="">
+            <p>El valor maximo es de 10000</p>
+            <input id="input-valor-maximo" type="number" min="0" max="10000" step="1" value="">
+            <select id="menu-categoria">
+            </select>
+            <button onclick="buscarConFiltro()"> Buscar </button>
+        </section>
+        <section id="panel-resultados">
+
+        </section>
+    </main>
+    <footer>
+        <p>Creador @Benja</p>
+    </footer>
+</body>
+</html>
